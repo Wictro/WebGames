@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url(./Background.jpg);
+    background-size: cover;
+}
+
+#game-side{
+    align-content: center;
+    padding: 50px;
+}
+
+#log-side{
+    align-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+#board{
+    display: grid;
+    background-color: rgb(54, 192, 123);
+    margin: auto;
+}
+
+#dialogue{
+    height: 50%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.butoni{
+    width: 150px;
+    height: 75px;
+    margin-top: 30px;
+    background-color: rgb(157, 219, 175);
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.butoni:hover{
+    background-color: rgb(138, 138, 138);
+}
+
+.unit{
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(199, 196, 196);
+}
+
+#drop{
+    background-color: rgb(157, 219, 175);
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    align-content: center;
+}
+
+.zgjedhje{
+    background-color: rgb(157, 219, 175);
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+#reset{
+    display: none;
+}
+
+#info{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+}
+
+#bomb{
+    display: none;
+    height: 80px;
+}
+
+#clock{
+    display: none;
+    height: 75px;
+}
+
+#bombCounter{
+    display: none;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#clockCounter{
+    display: none;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#imag1{
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+#imag2{
+    height: 80px;
+}

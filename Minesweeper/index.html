@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Minesweeper</title>
+</head>
+<body>
+    <div id="game-side">
+        <div id = "board">
+        </div>
+    </div>
+
+    <div id="log-side">
+        <div id="dialogue">
+            <select id="drop">
+                <option class="zgjedhje">Easy</option>
+                <option class="zgjedhje">Medium</option>
+                <option class="zgjedhje">Hard</option>
+            </select>
+            <button class="butoni" id="start" onclick="prePlay()">Start Game</button>
+            <button class="butoni" id="reset" onclick="reset()">Reset Game</button>
+            <p id="info"></p>
+        </div>
+        <div id="counters">
+            <div id="imag1">
+                <img style="object-fit: contain; margin-right: 30px;" src="bomb.png" id="bomb"><p id="bombCounter"></p>
+            </div>
+            <div id="imag2">
+                <img style="object-fit: contain; margin-right: 30px;" src="clock.png" id="clock"><p id="clockCounter"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="confetti.js"></script>
+
+</body>
+</html>
